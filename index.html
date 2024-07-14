@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="logo.png">
+    <!-- bootstrap links  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- css link  -->
+    <link rel="stylesheet" href="style.css">
+    <!-- --- AOS LIBRARY ---  -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- Font Awesome link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- -- jQuery Links --  -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js" integrity="sha512-ZKNVEa7gi0Dz4Rq9jXcySgcPiK+5f01CqW+ZoKLLKr9VMXuCsw3RjWiv8ZpIOa0hxO79np7Ec8DDWALM0bDOaQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js" integrity="sha512-d8F1J2kyiRowBB/8/pAWsqUl0wSEOkG5KATkVV4slfblq9VRQ6MyDZVxWl2tWd+mPhuCbpTB4M7uU/x9FlgQ9Q==" crossorigin="anonymous"></script>
+    <!-- title  -->
+    <title>Alpine Ascents | Mountain Guides Climbing</title>
+</head>
+<body>
+
+      <!-- -- Navbar --  -->
+      <header>
+        <div class="nav container">
+          <!-- -- Menu Icon --  -->
+          <!-- <i class="fa-solid fa-bars"></i> -->
+          <!-- -- logo --  -->
+          <img class="logo" src="logo.png" alt="logo">
+          <!-- -- nav list --  -->
+          <ul class="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="organization.html">Organization</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="development.html">Developments</a></li>
+            <li><a href="guides.html">Guidlines</a></li>
+          </ul>
+        </div>
+      </header>
+
+      <!-- -- Banner Section --  -->
+
+      <div id="carouselExampleDark" style="margin-top: 110px;" class="carousel carousel-dark slide p-25 data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="nanga-parbat.PNG" height="550px" class="d-block w-100" alt="nanga-parbat">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 style="text-shadow: 1px 2px black;" class="text-uppercase display-1 text-light text-start">Nanga Parbat</h5>
+              <p class="text-white text-start">Nanga Parbat, also called Diamir, one of the world's tallest mountains, 26,660 feet (8,126 metres) high, situated in the western Himalayas 17 miles (27 km) west-southwest of Astor, in the Pakistani-administered sector of the Kashmir region.</p>
+            </div>
+          </div>
+
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="mount-rainer.jpg" height="550px" class="d-block w-100" alt="mount-rainer">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 style="text-shadow: 1px 2px black;" class="text-uppercase display-1 text-light text-start">Mount Rainer</h5>
+              <p class="text-white text-start">Mount Rainier and its associated geologic and glacial features. At a height of 14,410 feet, Mount Rainier is the highest volcanic peak in the contiguous United States. It has the largest alpine glacial system outside of Alaska and the world's largest volcanic glacier cave system (in the summit crater).</p>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img src="k2-mountain.PNG" height="550px" class="d-block w-100" alt="k2-mountain">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 style="text-shadow: 1px 2px black;" class="display-1 text-light text-start">k2</h5>
+              <p class="text-white text-start">K2 is the second highest mountain in the world, at 8,611 metres (28,251 ft). It is also known as Mount Godwin-Austen or Chhogori. K2 is part of the Karakoram range. It is located in Pakistan. The name K2 came from the first survey of Karakoram.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- -- Clock Section - Reviews --  -->
+
+          <div class="container p-5 bg-light Preview">
+            <div class="row d-flex justify-content-center">
+              <div class="col-md-12 Counter-COntainer">
+                
+                <div class="Preview-1">
+                  <i class="fa fa-regular fa-face-smile-wink"></i>
+                <h1 class="counter">2754</h1>
+                <p class="some-text"> Happy Clients</p>
+              </div>
+  
+                <div class="Preview-2">
+                  <i class="fa fa-brands fa-old-republic"></i>
+                <h1 class="counter">3754</h1>
+                <p class="some-text"> Rising Stars</p>
+              </div>
+
+              <div style="padding: 10px 25px 25px;" class="Preview-3">
+                <!-- -- Clock HTML  -->
+                <div id="clockContainer">
+                  <div id="hour"></div>
+                  <div id="minute"></div>
+                  <div id="second"></div>
+              </div>
+
+              <!-- -- Visitor Count HTML --  -->
+              <div class="counter-content text-center Preview-4">
+                <h3 class="text-uppercase text-center fs-5 py-2 some-text">Visiter counts</h3>
+                <span class="counter-value" id="CounterVisitor"></span>
+            </div>
+
+
+            </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          
+
+
+      
+      <!-- short intro section  -->
+
+      <div class="intro container p-5" data-aos="fade-right">
+
+        <div class="row">
+
+          <div class="col-12">
+            <h1 class="fs-3 ">Welcome to Alpine Ascents</h1>
+          </div>
+
+          <div class="col-6">
+            <p>Celebrating 37 years of leading successful expeditions in 2023, Alpine Ascents International, Inc. is a leader in the climbing industry and has been instrumental in setting guiding standards in the international climbing community for most of our history. This year, we will offer more than 30 different expeditions and 50 training courses in 14 countries, including the Arctic and Antarctic regions. These expeditions range from three-day climbs of Mount Rainier to training courses in the North Cascades and Alaska, and</p>
+          </div>
+
+          <div class="col-6">
+            <p>ascents of the highest mountains around the world. Alpine Ascents’ philosophy is based on a true love and understanding of mountain wilderness. Our mission and goals are simple: by using the best climbing talent in the country, we offer the opportunity for climbers at all levels to achieve their personal aspirations through quality, challenging, safe and fun expeditions. Unparalleled mountain adventures are what we do.</p>
+          </div>
+
+        </div>
+        
+      </div>
+
+      <!-- -- blog section --  -->
+      <div class="container bS1" data-aos="slide-up">
+         <!-- -- section 1 --  -->
+        <div class="row">
+          <div class="c1-part-1 col-md-8">
+            <a  href="https://en.wikipedia.org/w/index.php?search=ALPINE+ASCENTS+BLOG&title=Special%3ASearch&fulltext=1&ns0=1"><img src="blog mountain.png" alt="mountain" width="100%" style="cursor: pointer;"></a>
+          </div>
+
+          <div class="c1-part-2 col-md-4 p-3">
+            <h1 class="fs-5 fw-bold text-uppercase">Alpine Ascents Blog</h1>
+            <hr style="color: white !important; max-width: 100px !important; border: 3px solid red !important;">
+            <p style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: white;">From packing tips and tricks to the best wine pairings in back country cuisine, our blog probes the depths of the world of mountaineering.</p>
+              <a href="https://en.wikipedia.org/w/index.php?search=ALPINE+ASCENTS+BLOG&title=Special%3ASearch&fulltext=1&ns0=1" class="m-2"><button class="p-2 text-uppercase">Alpine Ascents Blog</button></a>
+          </div>
+          </div>
+
+
+          <!-- -- section 2 --  -->
+          <div class="bs2 container m-2" data-aos="slide-up">
+          <div class="row">
+
+            <div class="col-md-8 p-4" style="background-color: #00a8f7;">
+              <h1 style="font-size: 21px !important; color: white !important; font-weight: bolder;">ACCLAIMED IN THE INDUSTRY FOR THE LAST 30+ YEARS</h1>
+              <hr style="color: white !important; max-width: 100px !important; border: 3px solid red !important;">
+              <img src="blog section logo/dawn logo.png" width="25%" alt="dawn">
+              <img src="blog section logo/mountain logo.png" width="25%" alt="mountain-logo">
+              <img src="blog section logo/nl logo.png" width="25%" alt="nl">
+              <p class="text-white">Named one of “The Best Adventure Travel Companies on Earth” by National Geographic Adventure Magazine.</p>
+              <p class="text-white"><span class="text-danger">Alpine Ascents was selected by The New York Times </span> as the chosen Kilimanjaro Guide Service</p>
+              <a href="https://www.alpineascents.com/testimonial/" class="m-2 sc-2-btn"><button class="p-2 text-uppercase">Alpine Ascents Blog</button></a>
+            </div>
+
+            <div class="col-md-4">
+              <img src="blog section img/mountain-man.jpg" width="100%" height="100%" alt="mountan-man">
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+        <!-- section 5  -->
+
+        <div class="container" data-aos="slide-up">
+          <div class="row m-2">
+            <div class="col-md-8">
+              <img src="blog section img/current cybercast.jpg" width="100%" alt="cybercast">
+            </div>
+            <div class="col-md-4 p-3" style="background-color: #00a8f7;">
+              <h1 style="font-size: 20px !important; color: white; font-weight: bolder !important;">CURRENT CYBERCASTS</h1>
+              <hr style="max-width: 40%; border: 2px solid red !important;">
+              <p class="text-white" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">One of the originators of the “Call From the Field” cybercast – please see our latest updates on our Cybercast page. Unique to Alpine Ascents, guides post audio updates directly to our website. Thanks for Tuning In! Please click the link for the latest posts and archive.</p>
+              <!-- <a href="https://www.alpineascents.com/cybercast/" class="m-2 sc-2-btn"><button class="p-2 text-uppercase">All Cybercasts</button></a> -->
+            </div>
+          </div>
+        </div>
+
+        <!-- -- section 6 --  -->
+
+        <div class="container" data-aos="slide-up">
+          <div class="row m-2">
+            <div class="col-md-8">
+              <img src="blog section img/mountaineering store.jpg" width="100%" alt="mountaineering">
+            </div>
+            <div class="col-md-4 p-3" style="background-color: #00a8f7;">
+              <h1 style="font-size: 20px !important; color: white; font-weight: bolder !important;">MOUNTAINEERING STORE</h1>
+              <hr style="max-width: 40%; border: 2px solid red !important;">
+              <p class="text-white" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;"Our Gear Shop offers an expertly curated selection of climbing & trekking equipment. The  <span> online store </span> is available 24/7 for your convenience, and our <span> Seattle shop </span> is open during weekday business hours. Our highly trained staff are also able to accept orders or answer questions via phone.</p>
+              <!-- <a href="https://www.alpineascents.com/gear-shop/" class="m-2 sc-2-btn"><button class="p-2 text-uppercase">Shop for Gear</button></a> -->
+            </div>
+          </div>
+        </div>
+
+        <!-- -- Quotes and Testimonials Button Section --  -->
+        <div class="container">
+          <br>
+          <p class="border-top border-bottom text-center p-4 text-secondary fst-italic">I think the expedition was great. I have nothing but praise for our guide and everyone I spoke with in your office. Reasonably <br> priced, great guides. <br> <br>
+            <a href="organization.html#Testimonial" class="m-2 p-1"><button style="background-color: orangered !important; color: white; border: none; font-size: 12.5px;" class="p-2 text-uppercase">All Testimonials</button></a>
+          </p>
+        </div>
+
+        <!-- WHY BOOK WITH ALPINE ASCENTS SECTION  -->
+
+        <div class="bf-footer-blog-sc">
+          <h1>WHY BOOK WITH ALPINE ASCENTS</h1>
+          <div class="row">
+
+            <div class="col-md-4 column-section">
+              <h1>KNOWLEDGE & EXPERTISE</h1>
+              <hr style="max-width: 100px; border: 3px solid white;">
+              <p>Alpine Ascents International leads expeditions that have become benchmarks of quality in the climbing community. We operate what we believe is the finest mountaineering school in the country. This expertise is based upon years of accumulated experience-not just from individual mountain guides, but through experience on particular mountains where details are fine-tuned over time.</p>
+            </div>
+
+            <div class="col-md-4 column-section">
+              <h1>GUIDES</h1>
+              <hr style="max-width: 100px; border: 3px solid white;">
+              <p>Our guides are an integral part of Alpine Ascents because they understand and share our climbing principles. These individuals are dedicated to sharing their excellence with others. Many of our guides have been with Alpine Ascents for over five years, with a handful of veterans working with us for most of their careers. The quality of our Guide Staff is the primary difference between us and our competitors.</p>
+            </div>
+
+            <div class="col-md-4 column-section">
+              <h1>ENVIRONMENTAL RESPONSIBILITIES</h1>
+              <hr style="max-width: 100px; border: 3px solid white;">
+              <p>Leave No Trace principles are fundamental to our program, and we encourage all who climb and trek with us to understand proper wilderness practices. We help facilitate this effort by passing on Leave No Trace training and literature to every Alpine Ascents climber.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- before footer section  -->
+
+        <div class="bf-section">
+            <h1>Partners & Accrediations</h1>
+            <hr>
+            <span>
+              <a href="https://lnt.org/" target="_blank"><img class="group-logo-img" src="before footer section/leave_no_trace_logo.png" alt="leave-no-trace-logo"></a>
+              <a href="https://www.thenorthface.com/en-us?_sr=1" target="_blank"><img class="group-logo-img" src="before footer section/the_north_face_logo.png" alt="the-north-face-logo"></a>
+              <a href="https://amga.com/" target="_blank"><img class="group-logo-img" src="before footer section/AMGA-logo.png" alt="AMGA-logo"></a> <br>
+            </span>
+            <a href="https://www.tomorrowsair.com/" target="_blank"><img class="tlogo" src="before footer section/ta-logo.png" alt="ta-logo"></a> <br>
+            <p>Alpine Ascents International is an authorized mountain guide service of Denali National Park and Preserve and Mount Rainier National Park. <br>
+              © Copyright 2023 All Rights Reserved. Alpine Ascents International</p>
+        </div>
+
+        <!-- -- footer --  -->
+        <Footer class="p-3" style="background-color: black;">
+          <p class="text-center text-secondary" style="font-size: 15px;">Alpine Ascents International | 109 W. Mercer St. - Seattle, WA 98119 | phone: 206.378.1927 | Climb@AlpineAscents.com</p>
+
+          <!-- <span class="footer-Icons">
+            <a href="https://www.facebook.com/AlpineAscentsInternational" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/alpineascents/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.youtube.com/channel/UC8QN14o4g6bOGZQbHAoF9og" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+          </span> -->
+
+        </Footer>
+
+        <script>
+          setInterval(() => {
+          d = new Date();
+          htime = d.getHours();
+          mtime = d.getMinutes();
+          stime = d.getSeconds();
+          hrotation = 30*htime + mtime/2;
+          mrotation = 6*mtime;
+          srotation = 6*stime;
+
+          hour.style.transform = `rotate(${hrotation}deg)`;
+          minute.style.transform = `rotate(${mrotation}deg)`;
+          second.style.transform = `rotate(${srotation}deg)`;
+        }, 1000);
+
+        var n = localStorage.getItem('on_load_counter');
+
+        if (n === null) {
+            n = 0;
+        }
+        n++;
+
+        localStorage.setItem("on_load_counter", n);
+
+        nums = n.toString().split('').map(Number);
+        document.getElementById('CounterVisitor').innerHTML = '';
+        for (var i of nums) {
+            document.getElementById('CounterVisitor').innerHTML += '<span class="counter-item">' + i + '</span>';
+        }
+
+	    $('.counter').counterUp({
+      delay: 10,
+      time: 1000
+      });
+        
+
+        </script>
+
+        <!-- -- AOS JS DATA --  -->
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+        AOS.init({
+          offset: 300,
+          duration: 1000,
+        });
+        </script>
+      
+
+
+        <a class="gotopbtn" href="index.html"><i class="fa-solid fa-chevron-up"></i></a>
+</body>
+</html>
